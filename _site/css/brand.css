@@ -45,3 +45,34 @@
     --color-background-focus: var(--primary-300);
     --color-border-pressed: var(--primary-400);
   }
+
+  /* Typography */
+  body {
+    font: 1.125rem 'Archivo', sans-serif;
+    margin: 0;
+  }
+
+  h1,h2,h3,h4 {
+    font-family: 'Archivo Black';
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 8rem;
+  }
+
+  h2 {
+    font-size: 6rem;
+  }
+
+  h3 {
+    font-size: 4rem;
+  }
+
+  h4.subheading {
+    font-size: 2rem;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
