@@ -1,0 +1,5 @@
+@import "brand.css";
+
+body {
+    color: var(--neutral-100);
+}
